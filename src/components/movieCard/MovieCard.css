@@ -1,0 +1,30 @@
+.MovieCardContainer {
+  display: flex;
+  background-color: transparent;
+  box-shadow: 3px 3px rgb(218, 236, 236);
+  margin: 4px;
+  border-radius: 5px;
+  flex-direction: column;
+  padding: 10px;
+  width: 70%;
+}
+.heartButton-like,
+.heartButton-unlike {
+  display: inline;
+  background-color: transparent;
+  border: none;
+  width: 5px;
+  cursor: pointer;
+}
+.deleteButton {
+  display: none;
+  background-color: transparent;
+  border: none;
+  width: 5px;
+  margin-left: auto;
+  display: none;
+  cursor: pointer;
+}
+.MovieCardContainer:hover > .deleteButton {
+  display: block;
+}

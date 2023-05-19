@@ -1,0 +1,5 @@
+.main-header{
+    background-image: url("/public/images/headerimg.png");
+    height: 230px;
+    box-shadow: 10px 2px lightgrey;
+}
